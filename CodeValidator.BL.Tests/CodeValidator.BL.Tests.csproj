@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BooleanResultMock.cs" />
+    <Compile Include="CodeValidationProxyMock.cs" />
     <Compile Include="CodeValidationServiceUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,6 +57,20 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeValidator.BL.Contract\CodeValidator.BL.Contract.csproj">
+      <Project>{3d78dbde-cd18-411b-b61f-70d7badcf178}</Project>
+      <Name>CodeValidator.BL.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeValidator.BL\CodeValidator.BL.csproj">
+      <Project>{bec045b0-d82c-4758-aa2b-1b6239310824}</Project>
+      <Name>CodeValidator.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeValidator.ServerProxies.Contract\CodeValidator.ServerProxies.Contract.csproj">
+      <Project>{d9d3df72-3828-4dc0-921f-a183bbca7882}</Project>
+      <Name>CodeValidator.ServerProxies.Contract</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
