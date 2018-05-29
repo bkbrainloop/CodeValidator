@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeValidator.BL", "CodeValidator.BL\CodeValidator.BL.csproj", "{BEC045B0-D82C-4758-AA2B-1B6239310824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeValidator.BL", "CodeValidator.BL\CodeValidator.BL.csproj", "{BEC045B0-D82C-4758-AA2B-1B6239310824}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeValidator.ServerProxies.Contract", "CodeValidator.ServerProxies.Contract\CodeValidator.ServerProxies.Contract.csproj", "{D9D3DF72-3828-4DC0-921F-A183BBCA7882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeValidator.ServerProxies.Contract", "CodeValidator.ServerProxies.Contract\CodeValidator.ServerProxies.Contract.csproj", "{D9D3DF72-3828-4DC0-921F-A183BBCA7882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeValidator.BL.Contract", "CodeValidator.BL.Contract\CodeValidator.BL.Contract.csproj", "{3D78DBDE-CD18-411B-B61F-70D7BADCF178}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeValidator.BL.Contract", "CodeValidator.BL.Contract\CodeValidator.BL.Contract.csproj", "{3D78DBDE-CD18-411B-B61F-70D7BADCF178}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - UI", "0 - UI", "{99209FD1-14E1-4B9E-AA50-33A50B2E77E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Business Layer", "1 - Business Layer", "{E7D63326-FFD0-4442-B4B9-3C7F45BFAFC9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Server Proxies", "2 - Server Proxies", "{24C50F3D-44A7-45B5-B8F6-2E48386794F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeValidator.BL.Tests", "CodeValidator.BL.Tests\CodeValidator.BL.Tests.csproj", "{487B52CB-85E4-4212-884B-66DF04B26963}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3D78DBDE-CD18-411B-B61F-70D7BADCF178}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D78DBDE-CD18-411B-B61F-70D7BADCF178}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D78DBDE-CD18-411B-B61F-70D7BADCF178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487B52CB-85E4-4212-884B-66DF04B26963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487B52CB-85E4-4212-884B-66DF04B26963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487B52CB-85E4-4212-884B-66DF04B26963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487B52CB-85E4-4212-884B-66DF04B26963}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{BEC045B0-D82C-4758-AA2B-1B6239310824} = {E7D63326-FFD0-4442-B4B9-3C7F45BFAFC9}
 		{D9D3DF72-3828-4DC0-921F-A183BBCA7882} = {24C50F3D-44A7-45B5-B8F6-2E48386794F1}
 		{3D78DBDE-CD18-411B-B61F-70D7BADCF178} = {E7D63326-FFD0-4442-B4B9-3C7F45BFAFC9}
+		{487B52CB-85E4-4212-884B-66DF04B26963} = {E7D63326-FFD0-4442-B4B9-3C7F45BFAFC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04F01FEA-12D4-4ACE-BF97-BB5BCD27B194}
