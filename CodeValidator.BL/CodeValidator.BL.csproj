@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CodeValidator.BL.Contract\CodeValidator.BL.Contract.csproj" />
+    <ProjectReference Include="..\CodeValidator.ServerProxies.Contract\CodeValidator.ServerProxies.Contract.csproj" />
+  </ItemGroup>
+
 </Project>
